@@ -12,7 +12,7 @@ public class Program {
             double unitPrice = Double.parseDouble(args[1]);
             double discount = Double.parseDouble(args[2]);
 
-            if(quantity < 0) { System.err.println("Błąd: liczba produktów nie może być ujemna"); System.exit(1);}
+            if(quantity <= 0) { System.err.println("Błąd: liczba produktów nie może być ujemna"); System.exit(1);}
 
             if (!Double.isFinite(unitPrice) || unitPrice < 0
                     || !Double.isFinite(discount) || discount < 0 || discount > 100) {
