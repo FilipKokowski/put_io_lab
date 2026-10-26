@@ -57,6 +57,8 @@ przypadki przed wykonaniem ćwiczeń.
 | `java 04-git/Program.java 2 50 101` | stderr: `Błąd: cena musi być nieujemna, a rabat od 0 do 100.` | 1 |
 | `java 04-git/Program.java abc 50 0` | stderr: `Błąd: podaj liczbę całkowitą produktów oraz liczbową cenę i rabat.` | 1 |
 | `java 04-git/Program.java` | stderr: `Użycie: java 04-git/Program.java liczba cena rabat` | 1 |
+| `java 04-git/Program.java -1 100 0` | stderr: `Błąd: liczba produktów nie może być ujemna` | 1 |
+
 
 ## Stan początkowy startera i kolejność pracy
 
