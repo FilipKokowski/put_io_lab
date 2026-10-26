@@ -29,31 +29,6 @@ Niepoprawne dane oznaczają komunikat na stderr, kod 1 i brak ceny na stdout.
 To mały przykład do nauki Gita, nie produkcyjny system rozliczeń: używamy
 `double` i małych wartości, nie modelujemy podatków ani zaokrąglania księgowego.
 
-## Przykłady
-
-### Przykład 1
-```bash
-java 04-git/Program.java 1 80 25
-```
-
-Oczekiwany wynik:
-
-```text
-Cena: 60.00
-```
-
-### Przykład 2
-
-```bash
-java 04-git/Program.java 2 50 100
-```
-
-Oczekiwany wynik:
-
-```text
-Cena: 0.00
-```
-
 ## Przykład bez rabatu
 
 ```bash
